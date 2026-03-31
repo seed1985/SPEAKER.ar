@@ -295,35 +295,7 @@
                             
                             <div class="space-y-2">
                                 <label class="text-xs font-bold text-gray-500 mr-1 uppercase">المدينة</label>
-                                <select name="city" required data-fs-field class="w-full border-2 border-gray-50 rounded-xl h-14 px-5 outline-none focus:border-black transition bg-gray-50/50 appearance-none">
-                                    <option value="" disabled selected>اختر المدينة</option>
-                                    <option value="riyadh">الرياض</option>
-                                    <option value="jeddah">جدة</option>
-                                    <option value="makkah">مكة المكرمة</option>
-                                    <option value="medina">المدينة المنورة</option>
-                                    <option value="dammam">الدمام</option>
-                                    <option value="khobar">الخبر</option>
-                                    <option value="dhahran">الظهران</option>
-                                    <option value="ahsa">الأحساء</option>
-                                    <option value="taif">الطائف</option>
-                                    <option value="buraydah">بريدة</option>
-                                    <option value="khamis">خميس مشيط</option>
-                                    <option value="abha">أبها</option>
-                                    <option value="tabuk">تبوك</option>
-                                    <option value="hail">حائل</option>
-                                    <option value="jazan">جازان</option>
-                                    <option value="najran">نجران</option>
-                                    <option value="bahah">الباحة</option>
-                                    <option value="arar">عرعر</option>
-                                    <option value="sakaka">سكاكا</option>
-                                    <option value="jubail">الجبيل</option>
-                                    <option value="yanbu">ينبع</option>
-                                    <option value="qatif">القطيف</option>
-                                    <option value="kharj">الخرج</option>
-                                    <option value="duwadmi">الدوادمي</option>
-                                    <option value="bisha">بيشة</option>
-                                    <option value="qunfudah">القنفذة</option>
-                                </select>
+                                <input type="text" name="city" placeholder="مثال: الرياض" required data-fs-field class="w-full border-2 border-gray-50 rounded-xl h-14 px-5 outline-none focus:border-black transition bg-gray-50/50">
                             </div>
 
                             <div class="space-y-2">
@@ -332,8 +304,8 @@
                             </div>
 
                             <div class="space-y-2">
-                                <label class="text-xs font-bold text-gray-500 mr-1 uppercase">العنوان بالتفصيل (اختياري - توصيل مجاني)</label>
-                                <input type="text" name="address" placeholder="الحي، الشارع، رقم المنزل" data-fs-field class="w-full border-2 border-gray-50 rounded-xl h-14 px-5 outline-none focus:border-black transition bg-gray-50/50">
+                                <label class="text-xs font-bold text-gray-500 mr-1 uppercase">العنوان بالتفصيل (توصيل مجاني)</label>
+                                <input type="text" name="address" placeholder="الحي، الشارع، رقم المنزل" required data-fs-field class="w-full border-2 border-gray-50 rounded-xl h-14 px-5 outline-none focus:border-black transition bg-gray-50/50">
                                 <div class="flex items-center text-[10px] text-gray-400 mt-1 mr-1">
                                     <i data-lucide="refresh-cw" class="w-3 h-3 ml-1"></i>
                                     سياسة إرجاع ١٥ يوم
